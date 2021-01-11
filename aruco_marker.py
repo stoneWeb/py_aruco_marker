@@ -28,7 +28,7 @@ while(True):
         x2 = (corners[0][0][1][0], corners[0][0][1][1]) # top_right
         x3 = (corners[0][0][2][0], corners[0][0][2][1]) # bottom_right
         x4 = (corners[0][0][3][0], corners[0][0][3][1]) # bottom_left
-        print(x1, x2, x3, x4)
+        print(ids[0], x1, x2, x3, x4)
 
     cv2.imshow('Display', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
